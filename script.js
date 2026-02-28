@@ -2,14 +2,15 @@
    Product Data
 ========================= */
 const products = [
-  { id: 1, name: "Product 1", price: 200, img: "../images/news-1.png" },
-  { id: 2, name: "Product 2", price: 900, img: "../images/news-2.png" },
-  { id: 3, name: "Product 3", price: 100, img: "../images/news-3.png" },
-  { id: 4, name: "Product 4", price: 290, img: "../images/tea-1.png" },
-  { id: 1, name: "Product 5", price: 200, img: "../images/tea-2.png" },
-  { id: 2, name: "Product 6", price: 900, img: "../images/tea-3.png" },
-  { id: 3, name: "Product 7", price: 100, img: "../images/tea-4.png" },
-  { id: 4, name: "Product 8", price: 290, img: "../images/fresh-1.png" },
+  { id: 1, name: "Product 1", price: 200, img: "./images/news-1.png" },
+
+  { id: 2, name: "Product 2", price: 900, img: "./images/news-2.png" },
+  { id: 3, name: "Product 3", price: 100, img: "./images/news-3.png" },
+  { id: 4, name: "Product 4", price: 290, img: "./images/tea-1.png" },
+  { id: 1, name: "Product 5", price: 200, img: "./images/tea-2.png" },
+  { id: 2, name: "Product 6", price: 900, img: "./images/tea-3.png" },
+  { id: 3, name: "Product 7", price: 100, img: "./images/tea-4.png" },
+  { id: 4, name: "Product 8", price: 290, img: "./images/fresh-1.png" },
 ];
 
 
