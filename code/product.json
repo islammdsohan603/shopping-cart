@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "LDD1 LOLADG",
+    "price": 2454,
+    "img": "../images/fresh-1.png"
+  },
+  {
+    "id": 2,
+    "name": "LDD1 LOLADG",
+    "price": 2964,
+    "img": "../images/fresh-1.png"
+  },
+  {
+    "id": 3,
+    "name": "LDD1 LOLADG",
+    "price": 8454,
+    "img": "../images/fresh-1.png"
+  },
+  {
+    "id": 4,
+    "name": "LDD1 LOLADG",
+    "price": 2474,
+    "img": "../images/fresh-1.png"
+  },
+  {
+    "id": 5,
+    "name": "LDD1 LOLADG",
+    "price": 245,
+    "img": "../images/fresh-1.png"
+  },
+  {
+    "id": 6,
+    "name": "LDD1 LOLADG",
+    "price": 254,
+    "img": "../images/fresh-1.png"
+  },
+  {
+    "id": 7,
+    "name": "LDD1 LOLADG",
+    "price": 454,
+    "img": "../images/fresh-1.png"
+  },
+  {
+    "id": 8,
+    "name": "LDD1 LOLADG",
+    "price": 24054,
+    "img": "../images/fresh-1.png"
+  }
+]

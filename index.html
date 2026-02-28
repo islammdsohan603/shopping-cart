@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <title>Mini Cart</title>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-6 bg-white shadow">
+    <h1 class="text-2xl font-bold">Product List</h1>
+
+    <div id="cartIcon" class="relative cursor-pointer">
+      <i class="fa-solid fa-cart-shopping text-2xl"></i>
+      <span
+        class="countItem absolute -top-2 -right-2 bg-red-500 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm">0</span>
+    </div>
+  </header>
+
+  <!-- Product List -->
+  <div id="listProduct" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+  </div>
+
+  <!-- Cart Panel -->
+  <div class="cartTab fixed top-0 right-0 w-80 h-full bg-white shadow-lg p-4 hidden">
+
+    <button class="closeBtn mb-4 bg-red-400 px-3 py-1 rounded">Close</button>
+
+    <h2 class="text-xl font-bold mb-4">Shopping Cart</h2>
+
+    <div class="listCart space-y-3"></div>
+
+    <h3 class="mt-4 font-bold">
+      Total: $<span class="totalPrice">0</span>
+    </h3>
+
+  </div>
+
+
+  <!-- JS File -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
